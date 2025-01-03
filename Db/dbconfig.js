@@ -9,15 +9,14 @@ const dbConnection = mysql.createPool({
   // database: process.env.DATABASE, // Database name
   // connectTimeout: 10000, // Timeout for connection (in ms)
 
- 
-  user: "rebiyaqa_Tom",
-  database: "rebiyaqa_Evangadiqa",
+  user: "rebiyaqa_rebu",
+  database: "rebiyaqa_Evangadi",
   host: "91.204.209.15",
-  password: "C~HYfFA;s2qB",
+  password: "zHue,9m;Y(??",
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
-  connectTimeout: 10000,
+  connectTimeout: 10000
 }); 
 
 // Use promises to handle queries
